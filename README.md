@@ -20,8 +20,7 @@ Este projeto implementa um microsserviço serverless na **Azure Functions** para
 ```plaintext
 microsservico-serverless-validacao-cpf-azure/
 ├── ValidateCPF/
-│   ├── __init__.py          # Lógica principal da função
-│   ├── function.json        # Configuração da Azure Function
+│   ├── function_app.py          # Lógica principal da função
 ├── host.json                # Configuração global da Azure Function
 ├── local.settings.json      # Configurações locais (não incluir no controle de versão)
 └── requirements.txt         # Dependências do projeto
@@ -40,7 +39,7 @@ microsservico-serverless-validacao-cpf-azure/
 1. Clone este repositório:
    ```bash
    git clone https://github.com/mario-evangelista/microsservico-serverless-validacao-cpf-azure.git
-   cd cpf-validator
+   cd microsservico-serverless-validacao-cpf-azure
    ```
 
 2. Instale as dependências:
